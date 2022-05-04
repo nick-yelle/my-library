@@ -4,15 +4,48 @@
     padding: 0;
 }
 
+.add-book-icon {
+  position: absolute;
+  margin-top: 10px;
+  right: 3%;
+  color: #011627;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+.book-author {
+  font-size: small;
+}
+
 .book-icon {
   padding: 7px 25px 0 0;
   color: #FDFFFC;
+}
+
+.book-list {
+  margin: 0 50px;
+}
+
+.book-publish-year {
+  font-size: small;
+}
+
+.book-title {
+  font-size: large;
+}
+
+.card {
+  background-color: #011627;
+  color: #FDFFFC;
+  border-radius: 15px;
+  padding: 30px 15px;
+  margin: 20px 50px;
+  position: relative;
+  text-align: center;
 }
 
 .container {
